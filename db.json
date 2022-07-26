@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Polska - Włochy, Mecz siatkówki",
+      "date": "13.09.2022r",
+      "place": "Kraków",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "aboutEvent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "section": {
+          "availableTickets": 112,
+          "theLowestTicketPrice": 50,
+          "sectorRate": "10/10",
+          "availableSeats": [
+            {
+              "placeId": "a02",
+              "price": 93,
+              "seatClass": "Regular"
+            },
+            {
+              "placeId": "a03",
+              "price": 95,
+              "seatClass": "Regular"
+            },
+            {
+              "placeId": "a95",
+              "price": 250,
+              "seatClass": "Extra Premium"
+            }
+          ]
+        }
+    },
+    {
+      "id": 2,
+      "title": "Koncert Kogośtam:",
+      "date": "03.12.2022r",
+      "place": "Warszawa",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "about-event": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "section": {
+          "availableTickets": 220,
+          "theLowestTicketPrice": 145,
+          "sectorRate": "8/10",
+          "availableSeats": [
+            {
+              "placeId": "a02",
+              "price": 93,
+              "seatClass": "Regular"
+            },
+            {
+              "placeId": "a03",
+              "price": 95,
+              "seatClass": "Regular"
+            },
+            {
+              "place-id": "a95",
+              "price": 250,
+              "seatClass": "Extra Premium"
+            }
+          ]
+        }
+      
+    }
+
+  ]
+}

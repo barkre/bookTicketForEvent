@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EventsListComponent } from './events-list/events-list.component';
+import { ActiveEventClickedComponent } from './active-event-clicked/active-event-clicked.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventsListComponent,
+    ActiveEventClickedComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
