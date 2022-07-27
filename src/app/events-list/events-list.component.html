@@ -2,7 +2,7 @@
 
 <div *ngFor="let event of event">
   <p>{{event.title}}</p>
-  
+  <button (click)="sendData(data)">Test clickc</button>
 </div>
 
-<button (click)="click()">Test clickc</button>
+<a routerLink="/activeEvent">Next page</a>

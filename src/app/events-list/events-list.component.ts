@@ -16,8 +16,12 @@ export class EventsListComponent implements OnInit {
     this.eventsService.getEvents().subscribe(event => this.event = event);
   }
 
-  click(){
-    console.log(this.event)
+  // jupi: any;
+
+  sendData(data: any){
+    // this.jupi = data
+    console.log(data)
+    this.eventsService.emitData(data)
   }
 
 }
